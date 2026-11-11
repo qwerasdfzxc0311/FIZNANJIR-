@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://finzanjir-iyzc0v.v2.appdeploy.ai/sitemap.xml
