@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Open the public Finzanjir landing page and navigate to its purpose",
+    "sanity": true,
+    "viewport": "desktop",
+    "covers": [
+      "public landing page",
+      "purpose section navigation",
+      "responsive readable layout"
+    ],
+    "description": "Verifies the primary public page loads with the Finzanjir identity and the main purpose section is reachable.",
+    "steps": [
+      "Open the public Finzanjir site",
+      "Select 'Loyiha maqsadini ko‘rish'",
+      "Confirm the purpose section is visible"
+    ],
+    "expected": "The Finzanjir landing page loads successfully and the purpose section is visible with four clearly separated goals."
+  },
+  {
+    "name": "Read the author and AI vision sections",
+    "viewport": "desktop",
+    "covers": [
+      "author information",
+      "AI purpose explanation",
+      "privacy-conscious public content"
+    ],
+    "description": "Verifies the public page presents the author and the future AI vision without exposing private contact information.",
+    "steps": [
+      "Navigate to 'AI maqsadi'",
+      "Navigate to 'Muallif'",
+      "Review the author card"
+    ],
+    "expected": "The AI purpose and author sections are visible, the author name is shown, and no phone number, email address, or residential address is displayed."
+  },
+  {
+    "name": "Use the site on a mobile viewport",
+    "viewport": "mobile",
+    "covers": ["mobile responsive layout", "mobile navigation and readability"],
+    "description": "Verifies the public page remains readable and usable on a narrow mobile viewport.",
+    "steps": [
+      "Open the public Finzanjir site at a mobile viewport",
+      "Scroll through the purpose, AI, and author sections",
+      "Select 'Yuqoriga qaytish'"
+    ],
+    "expected": "Content remains readable without horizontal overflow, and the return-to-top action moves back to the page top."
+  },
+  {
+    "name": "Confirm technical internals are intentionally absent from the public page",
+    "viewport": "desktop",
+    "covers": [
+      "public information boundary",
+      "no technical case details",
+      "no private contact details"
+    ],
+    "description": "Verifies the public page stays focused on purpose, principles, future vision, and authorship.",
+    "steps": [
+      "Review all visible sections of the public page",
+      "Look for detailed Case, Risk Engine, signal algorithm, phone, email, or address information"
+    ],
+    "expected": "The public page does not expose internal technical implementation details or private contact information."
+  }
+]
